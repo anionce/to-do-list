@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MY TO DO LIST</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./stylesheet.css" />
+        
+
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>My to do list <i class="fas fa-check"></i> </h1>
+            <div class="search">
+                <form>
+                    <input type="text" id="taskInput" placeholder="Add your task..."/>
+                    <button id="taskButton" class="button-add">+</button>
+                   
+                </form>
+            </div>
+            <ul id="taskList">
+                
+                <span id="noTasks" class="no-tasks">You have no tasks yet.</span>
+            
+                                    
+            </ul>
+
+            <div id="tasksInfo">
+                You have 0 tasks total. 0 completed and 0 pending.
+              </div>
+        </div>
+        <script src="./main.js">
+        </script>
+
+    </body>
+
+</html>
